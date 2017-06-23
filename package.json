@@ -1,6 +1,6 @@
 {
   "name": "react-vnc-display",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "React component to connect and display a remote VNC connection",
   "license": "MPL-2.0",
   "repository": "mozilla-rpweb/react-vnc-display",
@@ -16,21 +16,22 @@
     "ws",
     "websocket"
   ],
+  "main": "lib/VncDisplay.js",
   "files": [
     "lib",
     "src/components"
   ],
   "scripts": {
     "start": "neutrino start",
-    "build": "neutrino build"
+    "build": "neutrino build",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "neutrino": "^6.0.5",
     "neutrino-preset-react-components": "^2.0.1",
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
-    "react-dom": "^15.6.1",
-    "source-map-support": "^0.4.15"
+    "react-dom": "^15.6.1"
   },
   "dependencies": {
     "novnc-node": "^0.5.3",
