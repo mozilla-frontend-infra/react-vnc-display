@@ -1,6 +1,6 @@
 {
   "name": "react-vnc-display",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React component to connect and display a remote VNC connection",
   "license": "MPL-2.0",
   "repository": "mozilla-rpweb/react-vnc-display",
