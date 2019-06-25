@@ -1,9 +1,9 @@
 {
   "name": "react-vnc-display",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "React component to connect and display a remote VNC connection",
   "license": "MPL-2.0",
-  "repository": "mozilla-rpweb/react-vnc-display",
+  "repository": "mozilla-frontend-infra/react-vnc-display",
   "keywords": [
     "react",
     "component",
@@ -16,26 +16,32 @@
     "ws",
     "websocket"
   ],
-  "main": "lib/VncDisplay.js",
+  "main": "build/VncDisplay.js",
+  "browser": "build/VncDisplay.js",
   "files": [
-    "lib",
-    "src/components"
+    "build",
+    "es5",
+    "src"
   ],
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "prepare": "yarn build"
+    "lint": "neutrino lint",
+    "precommit": "neutrino stage",
+    "prepare": "neutrino build",
+    "styleguide": "neutrino styleguide:start",
+    "styleguide:build": "neutrino styleguide:build",
+    "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide"
   },
   "devDependencies": {
-    "neutrino": "^6.0.5",
-    "neutrino-preset-react-components": "^2.0.1",
-    "react": "^15.6.1",
-    "react-addons-css-transition-group": "^15.6.0",
-    "react-dom": "^15.6.1"
+    "gh-pages": "^1.1.0",
+    "neutrino": "^8.1.2",
+    "neutrino-preset-mozilla-frontend-infra": "^4.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "dependencies": {
     "novnc-node": "^0.5.3",
-    "object.omit": "^2.0.1",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.6.1"
   }
 }

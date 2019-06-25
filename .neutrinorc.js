@@ -1,3 +1,6 @@
 module.exports = {
-  use: ['neutrino-preset-react-components']
+  use: [
+    'neutrino-preset-mozilla-frontend-infra/styleguide',
+    'neutrino-preset-mozilla-frontend-infra/react-components',
+  ],
 };
