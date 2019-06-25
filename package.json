@@ -20,7 +20,6 @@
   "browser": "build/VncDisplay.js",
   "files": [
     "build",
-    "es5",
     "src"
   ],
   "scripts": {
