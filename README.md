@@ -32,10 +32,10 @@ npm install --save react-vnc-display
 The component from react-vnc-display is `VncDisplay`. This module can be required via ES imports, CommonJS require, or UMD.
 
 ```js
-import { VncDisplay } from 'react-vnc-display';
+import VncDisplay from 'react-vnc-display';
 
 // using require
-const { VncDisplay } = require('react-vnc-display');
+const VncDisplay = require('react-vnc-display').default;
 ```
 
 ### Usage
@@ -45,7 +45,7 @@ After importing the component, it can be rendered with the required `url` prop:
 ```jsx
 import React from 'react';
 import { render } from 'react-dom';
-import { VncDisplay } from 'react-vnc-display';
+import VncDisplay from 'react-vnc-display';
 
 render((
   <VncDisplay url="wss://some-remote-display:5991/path" />
