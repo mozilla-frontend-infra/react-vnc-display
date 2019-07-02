@@ -31,7 +31,9 @@
     "prepare": "neutrino build",
     "styleguide": "neutrino styleguide:start",
     "styleguide:build": "neutrino styleguide:build",
-    "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide"
+    "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
@@ -42,6 +44,8 @@
   },
   "dependencies": {
     "novnc-node": "^0.5.3",
-    "prop-types": "^15.6.1"
-  }
+    "prop-types": "^15.6.1",
+    "snyk": "^1.187.1"
+  },
+  "snyk": true
 }
