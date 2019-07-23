@@ -34,7 +34,7 @@
     "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^2.0.1",
     "neutrino": "^8.1.2",
     "neutrino-preset-mozilla-frontend-infra": "^4.1.0",
     "react": "^16.2.0",
