@@ -1,5 +1,7 @@
 # react-vnc-display
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mozilla-frontend-infra/react-vnc-display.svg)](https://greenkeeper.io/)
+
 React component to connect and display a remote VNC connection
 
 ![preview](https://cldup.com/Hwphp8yUtt-3000x3000.png)
