@@ -27,20 +27,23 @@
     "build": "neutrino build",
     "lint": "neutrino lint",
     "precommit": "neutrino stage",
-    "prepare": "neutrino build",
+    "prepare": "npm run snyk-protect && neutrino build",
     "styleguide": "neutrino styleguide:start",
     "styleguide:build": "neutrino styleguide:build",
-    "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide"
+    "deploy": "neutrino styleguide:build && gh-pages --remote upstream -d styleguide",
+    "snyk-protect": "snyk protect"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "neutrino": "^8.1.2",
     "neutrino-preset-mozilla-frontend-infra": "^4.1.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.1"
   },
   "dependencies": {
     "novnc-node": "^0.5.3",
-    "prop-types": "^15.6.1"
-  }
+    "prop-types": "^15.6.1",
+    "snyk": "^1.217.3"
+  },
+  "snyk": true
 }

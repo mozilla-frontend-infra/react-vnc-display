@@ -1,0 +1,1178 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - novnc-node > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/airbnb > eslint-plugin-import > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > spdy > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > serve-index > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > portfinder > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/airbnb-base > eslint-plugin-import > eslint-module-utils > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/airbnb > eslint-plugin-import > eslint-module-utils > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > portfinder > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > serve-index > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > spdy > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > portfinder > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > serve-index > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > spdy > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > portfinder > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > serve-index > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > spdy > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/compile-loader > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/airbnb-base > eslint-plugin-import > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/babel-minify > @neutrinojs/babel-minify-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > compression > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > compression > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > compression > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > compression > debug:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:extend:20180424':
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > remark > unified > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:hoek:20180212':
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:ms:20170412':
+    - neutrino > webpack-dev-server > compression > debug > ms:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > compression > debug > ms:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > compression > debug > ms:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > compression > debug > ms:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:stringstream:20180511':
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:tough-cookie:20170905':
+    - neutrino > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > neutrino-middleware-styleguidist > react-styleguidist > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/node > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/banner > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/env > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/hot > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/chunk > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-21T18:00:46.437Z'
+  'npm:tunnel-agent:20170305':
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-mozjpeg > mozjpeg > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
+    - neutrino-preset-mozilla-frontend-infra > @neutrinojs/react-components > @neutrinojs/react > @neutrinojs/web > @neutrinojs/minify > @neutrinojs/image-minify > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2019-08-21T18:00:46.437Z'
