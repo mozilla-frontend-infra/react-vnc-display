@@ -65,6 +65,15 @@ export default class VncDisplay extends Component {
      * before connecting.
      */
     shared: bool,
+    /**
+     * Specify whether a request to resize the VNC session should be sent
+     * whenever the container size changes
+     */
+    resizeSession: bool,
+    /**
+     * Specify the quality level for the VNC connection.
+     */
+    qualityLevel: number,
   };
 
   static defaultProps = {
@@ -83,6 +92,8 @@ export default class VncDisplay extends Component {
     onBell: null,
     onDesktopName: null,
     shared: false,
+    qualityLevel: 6,
+    resizeSession: true
   };
 
   componentDidMount() {
@@ -113,7 +124,7 @@ export default class VncDisplay extends Component {
     this.rfb = null;
   };
 
-  connect = () => {
+  connect = (opts) => {
     this.disconnect();
 
     if (!this.canvas) {
@@ -127,10 +138,14 @@ export default class VncDisplay extends Component {
       width,
       height,
       encrypt,
+      qualityLevel,
+      resizeSession
       ...opts
     } = this.props;
 
     this.rfb = new RFB({
+      qualityLevel,
+      resizeSession,
       ...opts,
       encrypt: encrypt !== null ? encrypt : url.startsWith('wss:'),
       target: this.canvas,
@@ -164,6 +179,8 @@ export default class VncDisplay extends Component {
   render() {
     return (
       <canvas
+        width={this.props.width}
+        height={this.props.height}
         style={this.props.style}
         ref={this.registerChild}
         onMouseEnter={this.handleMouseEnter}
